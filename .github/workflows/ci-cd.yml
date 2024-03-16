@@ -8,8 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    runs:
-      using: 'node20'
 
     steps:
       - name: Checkout code
@@ -23,7 +21,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd /projects/cicd-nest
+            cd ./projects/cicd-nestjs
             git pull origin main
             docker build -t "auth-service" .
-            docker-compose up -d
+            docker compose up -d
