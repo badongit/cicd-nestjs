@@ -9,4 +9,8 @@ export class AppService {
   sayHi(): string {
     return 'Hi!';
   }
+
+  sayTestMerge(): string {
+    return 'Test merge!';
+  }
 }
