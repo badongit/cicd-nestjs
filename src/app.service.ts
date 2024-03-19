@@ -7,7 +7,7 @@ export class AppService {
   }
 
   sayHi(): string {
-    return 'Hi!';
+    return 'Hi! I am commit 2';
   }
 
   sayTestRebase(): string {
