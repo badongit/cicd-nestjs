@@ -13,4 +13,8 @@ export class AppService {
   sayTestRebase(): string {
     return 'Test rebase!';
   }
+
+  sayTestMerge(): string {
+    return 'Test merge!';
+  }
 }
