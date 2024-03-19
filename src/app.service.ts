@@ -5,4 +5,8 @@ export class AppService {
   getHello(): string {
     return 'Hello World! I am working with Docker! I have changed this message.';
   }
+
+  sayHi(): string {
+    return 'Hi!';
+  }
 }
