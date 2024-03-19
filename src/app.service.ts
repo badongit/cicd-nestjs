@@ -9,4 +9,8 @@ export class AppService {
   sayHi(): string {
     return 'Hi!';
   }
+
+  sayTestRebase(): string {
+    return 'Test rebase!';
+  }
 }
